@@ -33,3 +33,8 @@ print("The inserted records are")
 data = cursor.execute('''Select * from STUDENT''')
 for row in data:
     print(row)
+
+
+##Comit Your Changes into  the Database
+connection.commit()
+connection.close()
